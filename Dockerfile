@@ -1,7 +1,7 @@
 FROM java:latest  
 MAINTAINER Øyvind Hansen oyvind.hansen@skat.dk 
 ENV SCALA_VERSION 2.11.7  
-ENV SBT_VERSION 0.13.9  
+ENV SBT_VERSION 0.13.11
 ENV SBT_OPTS -Xmx2G -XX:+UseConcMarkSweepGC -XX:+CMSClassUnloadingEnabled -Xss2M -Duser.timezone=GMT  
 
 # install sbt  
