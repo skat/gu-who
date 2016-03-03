@@ -14,6 +14,6 @@ RUN dpkg -i scala-$SCALA_VERSION.deb
 
 # fetch base dependencies  
 RUN sbt compile  
-VOLUME /src  
-WORKDIR /src  
-CMD ["sbt"]  
+VOLUME /gu-who 
+WORKDIR /gu-who  
+CMD ["sbt start"]  
