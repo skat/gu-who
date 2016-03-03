@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/skat/gu-who.svg?branch=master)](https://travis-ci.org/skat/gu-who)
+
 GU: Who?
 ========
 
