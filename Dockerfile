@@ -16,4 +16,4 @@ RUN dpkg -i scala-$SCALA_VERSION.deb
 RUN sbt compile  
 VOLUME /gu-who 
 WORKDIR /gu-who  
-CMD ["sbt start"]  
+CMD ["sbt"]  
